@@ -1,0 +1,23 @@
+img {
+  height: 45px;
+  fill: white;
+}
+.nav {
+  font-size: 26px;
+  font-weight: 600;
+}
+ul {
+  margin-top: 40px;
+}
+li {
+  margin-left: -30px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+}
+.al {
+  padding-top: 10px;
+}
+li:hover {
+  color: rgb(180, 249, 249);
+}

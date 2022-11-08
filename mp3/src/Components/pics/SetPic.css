@@ -1,0 +1,74 @@
+.position1 {
+  left: 92%;
+  top: 6%;
+  position: absolute;
+  z-index: 6;
+}
+.position2 {
+  left: 86%;
+  top: 6%;
+  position: absolute;
+  z-index: 6;
+}
+.position3 {
+  left: 80.3%;
+  top: 6%;
+  position: absolute;
+  z-index: 6;
+}
+
+.position4 {
+  left: 1%;
+  top: 11%;
+  position: fixed;
+  z-index: 6;
+}
+.position5 {
+  left: 1%;
+  top: 18.4%;
+  position: fixed;
+  z-index: 6;
+}
+.position6 {
+  left: 1%;
+  top: 25.4%;
+  position: fixed;
+  z-index: 6;
+}
+
+.position7 {
+  left: 4%;
+  top: 88.5%;
+  position: fixed;
+  z-index: 6;
+}
+.position8 {
+  left: 9.1%;
+  top: 87.5%;
+  position: fixed;
+  z-index: 6;
+}
+.position9 {
+  left: 15%;
+  top: 88.5%;
+  position: fixed;
+  z-index: 6;
+}
+.position0 {
+  left: 29%;
+  top: 17.4%;
+  position: absolute;
+  z-index: 6;
+}
+.size30 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.size30:hover {
+  color: rgb(180, 249, 249);
+}
+.size30:hover .piccolor {
+  fill: aqua;
+}

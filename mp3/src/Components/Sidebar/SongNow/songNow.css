@@ -1,0 +1,51 @@
+.line{
+    width: 21%;
+    height: 8px;
+    margin-left: 0.5%;
+    position: fixed;
+    bottom: 17%;
+    z-index: 5;
+    background: black;
+    border-radius: 17px;  
+}
+.point{
+    width: 16px;
+    height: 13px;
+    margin-left: 0.6%;
+    position: fixed;
+    bottom: 16.7%;
+    z-index: 5;
+    background: white;
+    border-radius: 17px;
+}
+.songname{
+    position: fixed;
+    bottom: 24.5%;
+    z-index: 6;
+    width: 22%;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    font-size: 28px;
+}
+.artist{
+    width: 22%;
+    text-align: center;
+    position: fixed;
+    bottom: 20%;
+    z-index: 6;
+    font-weight: 200;
+    color: white;
+    font-size: 24px;
+}
+.picture{
+    min-height: 135px;
+    min-width: 205px;
+    border-radius: 16px;
+    top: 36%;
+    left: 1%;
+    width: 20%;
+    height: 34%;
+    z-index: 6;
+    position: fixed;
+}

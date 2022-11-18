@@ -1,0 +1,36 @@
+.text2 {
+  position: absolute;
+  left: 30%;
+  z-index: 3;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 29px;
+  top: 8%;
+  color: #ffffff;
+}
+
+.plist{
+  position: absolute;
+  top: 12%;
+  left:27%;
+  z-index: 40;
+}
+
+.AddNew{
+  position: fixed;
+  color: white;
+  font-size: 75px;
+  left: calc(72% + 200px);
+  top: 80%;
+  background: #00B066;
+  border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  z-index: 6;
+}
+
+.AddNew:hover{
+  opacity:0.85;
+}

@@ -14,9 +14,10 @@ li {
   padding: 10px;
   list-style: none;
   display: flex;
+  color: white;
 }
 .al {
-  padding-top: 10px;
+  padding-top: 10px;  
 }
 li:hover {
   color: rgb(180, 249, 249);

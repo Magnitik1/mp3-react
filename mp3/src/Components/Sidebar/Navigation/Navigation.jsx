@@ -3,31 +3,30 @@ import "./navigation.css";
 import homePic from "../../pics/navPics/home.svg";
 import searchPic from "../../pics/navPics/search.svg";
 import libraryPic from "../../pics/navPics/library.svg";
-import { ReactDOM } from "react-dom";
 import { BrowserRouter, Routes, Route, NavLink, Link } from "react-router-dom";
 
-function Navigation() {
+function Navigation(props) {
   return (
     <div className="Navigation">
       <ul className="nav">
-        <li>
-          <NavLink to="../Home/Home" activeClassName="active">
+        <Link to="/Home" style={{textDecoration: 'none'}}>
+          <li >
             <img src={homePic} alt="home" />
-            <a className="al">&nbsp;&nbsp;Home</a>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="../Search/Search">
+             <a className="al">&nbsp;&nbsp;Home</a>
+          </li>
+        </Link>
+        <Link to="/Search" style={{textDecoration: 'none'}}>
+          <li>
             <img src={searchPic} alt="search" />
             <a className="al">&nbsp;&nbsp;Search</a>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/Library">
+          </li>
+        </Link>
+        <Link to="/Library" style={{textDecoration: 'none'}}>
+          <li>
             <img src={libraryPic} alt="library" />
             <a className="al">&nbsp;&nbsp;Library</a>
-          </NavLink>
-        </li>
+          </li>
+        </Link>
       </ul>
     </div>
   );

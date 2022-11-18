@@ -21,27 +21,6 @@
     top: 75.5%;
 }
 
-.bg{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    background: black;  
-}
-
-.gradient{
-    position: fixed;
-    width: 70%;
-    height: 42%;
-    left: 15.8%;
-    top: -27%;
-    z-index: 2;
-    background: linear-gradient(180deg, #D0BB00 51.02%, #000000 81.25%, #000000 100%);
-    border-radius: 55px;
-    transform: rotate(-10.65deg);
-}
-
 .rects{
     text-shadow: 2px 2px 3px black;
     color: white;
@@ -182,3 +161,4 @@
     width: 390px;
     position: absolute;
 }
+

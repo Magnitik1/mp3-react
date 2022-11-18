@@ -11,9 +11,13 @@ function App(props) {
     <div className="App">
     <Sidebar/>
       <header className="App-header">
-            <Route path='./Search/Search' element={<Search/>}/>
-            <Route path='./Home/Home' element={<Home/>}/>
-            <Route path='./Library/Library' element={<Library/>}/>
+      <a className='bg'></a>
+      <a className='gradient'></a>
+        <Routes>
+            <Route path='/Search' element={<Search/>}/>
+            <Route path='/Home' element={<Home/>}/>
+            <Route path='/Library' element={<Library/>}/>
+        </Routes>
       </header>
     </div>
     </BrowserRouter>

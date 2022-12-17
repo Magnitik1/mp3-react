@@ -4,7 +4,9 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 import Home from "./Components/Sidebar/Navigation/Home/Home";
 import Search from './Components/Sidebar/Navigation/Search/Search';
 import Library from './Components/Sidebar/Navigation/Library/Library';
+import MySettings from './Components/Sidebar/Navigation/Home/MySettings/MySettings';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+
 function App(props) {
   return (
     <BrowserRouter>
@@ -17,6 +19,7 @@ function App(props) {
             <Route path='/Search' element={<Search/>}/>
             <Route path='/Home' element={<Home/>}/>
             <Route path='/Library' element={<Library/>}/>
+            <Route path='/MySettings' element={<MySettings/>}/>
         </Routes>
       </header>
     </div>

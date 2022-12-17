@@ -4,17 +4,86 @@
     height: 100%;
     left: 0px;
     top: 0px;
-    background:black;
 }
 
-.gradient{
+
+.MySettingsCSS{
+    position: absolute;
+    width: 45px;
+    right:60px;
+    top:55px;
+    z-index: 7;
+}
+
+.BGNight{
+    width: 80%;
+    margin-left: 20%;
+    height: 100%;
+    position: fixed;
+    background: rgb(0, 0, 0);
+}
+
+.BGDay{
+    width: 80%;
+    margin-left: 20%;
+    height: 100%;
+    position: fixed;
+    background: rgb(255, 255, 255);
+}
+
+
+.mygradient{
     position: fixed;
     width: 70%;
     height: 42%;
     left: 15.8%;
     top: -27%;
     z-index: 2;
-    background: linear-gradient(180deg, #D0BB00 51.02%, #000000 81.25%, #000000 100%);
     border-radius: 55px;
     transform: rotate(-10.65deg);
+}
+.gradientHomeNight{
+    background: linear-gradient(180deg, #D0BB00 51.02%, #000000 81.25%, #000000 100%);
+}
+.gradientHomeDay{
+    background: linear-gradient(180deg, #D0BB00 51.02%, #ffffff 81.25%, #ffffff 100%);
+}
+.gradientSetNight{
+    background: linear-gradient(180deg, #A700D0 51.02%, #000000 81.25%, #000000 100%);
+}
+.gradientSetDay{
+    background: linear-gradient(180deg, #A700D0 51.02%, #ffffff 81.25%, #ffffff 100%);
+}
+.gradientSearchNight{
+    background: linear-gradient(180deg, #0400D0 51.02%, #000000 81.25%, #000000 100%);
+}
+.gradientSearchDay{
+    background: linear-gradient(180deg, #0400D0 51.02%, #ffffff 81.25%, #ffffff 100%);
+}
+.gradientListNight{
+    background: linear-gradient(180deg, #00D079 51.02%, #000000 81.25%, #000000 100%);
+}
+.gradientListDay{
+    background: linear-gradient(180deg, #00D079 51.02%, #ffffff 81.25%, #ffffff 100%);
+}
+
+.text{
+    position: absolute;
+    left: 30%;
+    z-index: 3;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 29px;
+}
+.daytext{
+    color:#000000;
+}
+.nighttext{
+    color:#ffffff;
+}
+.goodM{
+    top: 8%;   
 }

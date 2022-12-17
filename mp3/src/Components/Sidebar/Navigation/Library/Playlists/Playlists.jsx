@@ -4,6 +4,7 @@ import allsongs from "../../../../redux/allsongs";
 import allplaylists from "../../../../redux/allplaylists";
 import "./playlists.css";
 import mydel from "../../../../pics/bin.svg";
+import theme from "../../../../redux/theme"
 
 const Playlists = (props) => {
   const [listVisibility, SetlistVisibility] = useState(true);
@@ -41,7 +42,7 @@ const Playlists = (props) => {
           <Link to="" style={{ textDecoration: "none" }} className="mygreen">
             <li onClick={ShowSongs}>
               <img src={props.picture} className="favbg" alt="-" />
-              <a className="test"> &nbsp;&nbsp;&nbsp;{props.name}</a>
+              <a className={theme[0] ?"test daytext":"test nighttext"}> &nbsp;&nbsp;&nbsp;{props.name}</a>
             </li>
           </Link>
           <Link className="delbutton">

@@ -1,12 +1,20 @@
 import React from "react";
 import "./home.css";
-
+import { BrowserRouter, Routes, Route, NavLink, Link } from "react-router-dom";
+import settingsPic from "../../../pics/mysettings.svg";
+import theme from "../../../redux/theme";
 function Home(props) {
+
   return (
     <div className="Home">
-      <a className="text goodM">Good morning</a>
+      <div className={theme[0] ? "BGDay" :"BGNight"}/>
+    <div className={theme[0] ? "gradientHomeDay mygradient" : "gradientHomeNight mygradient"}/>
+    <Link to="/MySettings" style={{textDecoration: 'none'}}>
+      <img src={settingsPic} alt="set" className="MySettingsCSS"/>
+    </Link>
+      <a className={theme[0] ?"text goodM daytext":"text goodM nighttext"}>Good morning</a>
       <div className="rects rect5">
-        <a className="mid">Library</a>
+        <a className="mid" >Library</a> 
       </div>
       <div className="rects rect6">
         <a className="mid">Acoustic Hits</a>
@@ -23,7 +31,7 @@ function Home(props) {
       <div className="rects rect10">
         <a className="mid">Global Top</a>
       </div>
-      <a className="text showToTry">Shows to try</a>
+      <a className={theme[0] ?"text showToTry daytext":"text showToTry nighttext"}>Shows to try</a>
       <div className="bigRects rect11">
         <a className="bmid">Old is Gold</a>
       </div>
@@ -33,7 +41,7 @@ function Home(props) {
       <div className="bigRects rect13">
         <a className="bmid">90's Hits</a>
       </div>
-      <a className="text yourTopMixes">Your Top Mixes</a>
+      <a className={theme[0] ?"text yourTopMixes daytext":"text yourTopMixes nighttext"}>Your Top Mixes</a>
       <div className="bigRects rect14">
         <a className="bmid">KISS, Queen, My Darkest Days</a>
       </div>
@@ -43,6 +51,7 @@ function Home(props) {
       <div className="bigRects rect16">
         <a className="bmid">Skillet, Evanescence, Flyleaf</a>
       </div>
+      <div className="empty"/>
     </div>
   );
 }

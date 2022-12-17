@@ -89,7 +89,7 @@ button:hover {
 
 button:active {
   color: rgba(224, 224, 224, 0.986);
-  background: #00150d;
+  /* background: #00150d; */
 }
 @keyframes shadow-drop-2-center {
   0% {

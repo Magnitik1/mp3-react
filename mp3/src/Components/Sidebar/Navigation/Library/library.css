@@ -8,7 +8,6 @@
   font-size: 27px;
   line-height: 29px;
   top: 8%;
-  color: #ffffff;
 }
 
 .plist{
@@ -29,8 +28,11 @@
   width: 90px;
   height: 90px;
   z-index: 6;
+  color: rgba(224, 224, 224, 0.986);
+  animation: shadow-drop-2-center 0s cubic-bezier(0.95, 0.94, 0.8, 0.3) both;
+  border: none;
 }
 
 .AddNew:hover{
-  opacity:0.85;
+  opacity:0.83;
 }
